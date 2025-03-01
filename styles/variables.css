@@ -1,1 +1,34 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --accent-font: 'PressStart2P';
+  --main-font: 'Inter-Variable';
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --title-ft-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --subtitle-ft-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --main-ft-size: 18px;
+  --button-box-shadow: 2px 2px 0 #000;
+  --label-shadow:  
+    -1px 0 #fff, 
+    0 1px #fff, 
+    1px 0 #fff, 
+    0 -1px #fff;
+  --floppy-size: 28px;
+  --contour-color: #000;
+  --sparks-color: #FF0000;
+  --main-color: #000;
+  --button-text-color: #fff;
+  --button-txt-ft-size: 14px;
+  --text-transform-up: uppercase;
+  --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --save-button-width: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
+  --header-padding: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem) clamp(0.875rem, -1.4688rem + 10vw, 7.53125rem);
+  --footer-padding: clamp(3.25rem, 3.294rem + -0.1878vw, 3.125rem) 0 clamp(6.25rem, 6.184rem + 0.2817vw, 6.4375rem) 0;
+  --like-button-margin: 25px 25px 25px 0px;
+  --bg-image: 
+    repeating-linear-gradient(to right, transparent 0 2px, #d3d3d3 2px 4px),
+    repeating-linear-gradient(to bottom, transparent 0 2px, #d3d3d3 2px 4px),
+    linear-gradient(#e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a);
+  --bg-color: #fff;
+  --border: 2px solid #000; 
+}
