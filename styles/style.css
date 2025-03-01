@@ -323,8 +323,8 @@
 .modal-window[open] {
   display: grid;
   row-gap: 30px;
-  width: 341px;
-  padding: 30px 35px;
+  width: var(--modal-window-width);
+  padding: 27.5px 35px;
   color: var(--main-color);
   background-color: var(--bg-color);
 }
@@ -358,6 +358,7 @@
 
 .modal-button {
   padding: 12.5px 112px;
+  width: 100%;
   border: var(--border);
   font-family: var(--accent-font), 'Dotum', fantasy;
   font-size: var(--button-txt-ft-size);

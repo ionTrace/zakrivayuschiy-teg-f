@@ -15,6 +15,7 @@
     0 -1px #fff;
   --floppy-size: 28px;
   --modal-floppy-size: 39px;
+  --modal-window-width: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
   --contour-color: #000;
   --sparks-color: #FF0000;
   --main-color: #000;
