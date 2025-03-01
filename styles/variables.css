@@ -3,7 +3,7 @@
   --accent-font: 'PressStart2P';
   --main-font: 'Inter-Variable';
   --font-weight-normal: 400;
-  --font-weight-bold: 700;
+  --font-weight-bold: 785;
   --title-ft-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   --subtitle-ft-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   --main-ft-size: 18px;
@@ -30,5 +30,5 @@
     repeating-linear-gradient(to bottom, transparent 0 2px, #d3d3d3 2px 4px),
     linear-gradient(#e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a);
   --bg-color: #fff;
-  --border: 2px solid #000; 
+  --border: 2px solid #000;
 }
